@@ -10,7 +10,7 @@
         tools:context=".HomeFragment">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/signUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sign_up"
@@ -23,6 +23,7 @@
             app:layout_constraintVertical_bias="0.123" />
 
         <Button
+            android:id="@+id/terms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/terms"
@@ -31,7 +32,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/signUp"
             app:layout_constraintVertical_bias="0.225" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

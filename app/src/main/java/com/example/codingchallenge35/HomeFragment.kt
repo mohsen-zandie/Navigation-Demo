@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import com.example.codingchallenge35.databinding.FragmentHomeBinding
 
 
@@ -20,6 +21,13 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false)
+        binding.signUp.setOnClickListener {
+            it.findNavController().navigate(R.id.action_homeFragment_to_nameFragment)
+        }
+        binding.terms.setOnClickListener {
+            it.findNavController().navigate(R.id.action_homeFragment_to_termsFragment)
+        }
+
         return binding.root
     }
 
