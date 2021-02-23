@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import com.example.codingchallenge35.databinding.FragmentEmailBinding
 
 
@@ -20,6 +21,9 @@ class EmailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_email, container, false)
+        binding.submit.setOnClickListener {
+            it.findNavController().navigate(R.id.action_emailFragment_to_welcomeFragment)
+        }
         return binding.root
     }
 
