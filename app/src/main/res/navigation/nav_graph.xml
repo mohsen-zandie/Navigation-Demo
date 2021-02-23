@@ -10,4 +10,24 @@
         android:name="com.example.codingchallenge35.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/emailFragment"
+        android:name="com.example.codingchallenge35.EmailFragment"
+        android:label="fragment_email"
+        tools:layout="@layout/fragment_email" />
+    <fragment
+        android:id="@+id/nameFragment"
+        android:name="com.example.codingchallenge35.NameFragment"
+        android:label="fragment_name"
+        tools:layout="@layout/fragment_name" />
+    <fragment
+        android:id="@+id/termsFragment"
+        android:name="com.example.codingchallenge35.TermsFragment"
+        android:label="fragment_terms"
+        tools:layout="@layout/fragment_terms" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.codingchallenge35.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
 </navigation>
