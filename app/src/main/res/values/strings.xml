@@ -6,4 +6,6 @@
     <string name="enter_your_email">Enter your email</string>
     <string name="next">Next</string>
     <string name="submit">Submit</string>
+    <string name="welcome">Welcome</string>
+    <string name="view_terms">View Terms</string>
 </resources>
