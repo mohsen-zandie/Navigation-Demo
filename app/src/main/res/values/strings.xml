@@ -3,5 +3,7 @@
     <string name="sign_up">Sign Up</string>
     <string name="terms">Terms</string>
     <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
     <string name="next">Next</string>
+    <string name="submit">Submit</string>
 </resources>
