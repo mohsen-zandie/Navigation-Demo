@@ -9,17 +9,32 @@
         android:id="@+id/homeFragment"
         android:name="com.example.codingchallenge35.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_termsFragment"
+            app:destination="@id/termsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_nameFragment"
+            app:destination="@id/nameFragment" />
+    </fragment>
     <fragment
         android:id="@+id/emailFragment"
         android:name="com.example.codingchallenge35.EmailFragment"
         android:label="fragment_email"
-        tools:layout="@layout/fragment_email" />
+        tools:layout="@layout/fragment_email" >
+        <action
+            android:id="@+id/action_emailFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/nameFragment"
         android:name="com.example.codingchallenge35.NameFragment"
         android:label="fragment_name"
-        tools:layout="@layout/fragment_name" />
+        tools:layout="@layout/fragment_name" >
+        <action
+            android:id="@+id/action_nameFragment_to_emailFragment"
+            app:destination="@id/emailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/termsFragment"
         android:name="com.example.codingchallenge35.TermsFragment"
@@ -29,5 +44,9 @@
         android:id="@+id/welcomeFragment"
         android:name="com.example.codingchallenge35.WelcomeFragment"
         android:label="fragment_welcome"
-        tools:layout="@layout/fragment_welcome" />
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_termsFragment"
+            app:destination="@id/termsFragment" />
+    </fragment>
 </navigation>
