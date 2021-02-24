@@ -1,4 +1,4 @@
-package com.komozan.codingchallenge35.viewmodel
+package com.komozan.navigationlibdemo.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

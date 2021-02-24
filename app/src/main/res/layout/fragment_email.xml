@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.komozan.codingchallenge35.viewmodel.SharedViewModel" />
+            type="com.komozan.navigationlibdemo.viewmodel.SharedViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

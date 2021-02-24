@@ -1,4 +1,4 @@
-package com.komozan.codingchallenge35.ui
+package com.komozan.navigationlibdemo.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
-import com.komozan.codingchallenge35.R
-import com.komozan.codingchallenge35.databinding.FragmentEmailBinding
-import com.komozan.codingchallenge35.viewmodel.SharedViewModel
+import com.komozan.navigationlibdemo.R
+import com.komozan.navigationlibdemo.databinding.FragmentEmailBinding
+import com.komozan.navigationlibdemo.viewmodel.SharedViewModel
 
 
 class EmailFragment : Fragment() {

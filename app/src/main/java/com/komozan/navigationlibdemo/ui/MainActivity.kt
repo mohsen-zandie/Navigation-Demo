@@ -1,10 +1,10 @@
-package com.komozan.codingchallenge35.ui
+package com.komozan.navigationlibdemo.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.komozan.codingchallenge35.R
-import com.komozan.codingchallenge35.databinding.ActivityMainBinding
+import com.komozan.navigationlibdemo.R
+import com.komozan.navigationlibdemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

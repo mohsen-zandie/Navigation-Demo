@@ -1,4 +1,4 @@
-package com.komozan.codingchallenge35.ui
+package com.komozan.navigationlibdemo.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,12 +8,12 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
-import com.komozan.codingchallenge35.R
-import com.komozan.codingchallenge35.databinding.FragmentWelcomeBinding
-import com.komozan.codingchallenge35.viewmodel.SharedViewModel
+import com.komozan.navigationlibdemo.R
+import com.komozan.navigationlibdemo.databinding.FragmentNameBinding
+import com.komozan.navigationlibdemo.viewmodel.SharedViewModel
 
-class WelcomeFragment : Fragment() {
-    private lateinit var binding: FragmentWelcomeBinding
+class NameFragment : Fragment() {
+    private lateinit var binding: FragmentNameBinding
     private lateinit var model: SharedViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,13 +23,14 @@ class WelcomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_welcome, container, false)
-        binding.viewTerms.setOnClickListener {
-            it.findNavController().navigate(R.id.action_welcomeFragment_to_termsFragment)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_name, container, false)
+        binding.next.setOnClickListener {
+            it.findNavController().navigate(R.id.action_nameFragment_to_emailFragment)
         }
         model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
         binding.viewModel = model
         binding.lifecycleOwner = requireActivity()
         return binding.root
     }
+
 }

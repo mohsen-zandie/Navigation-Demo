@@ -1,4 +1,4 @@
-package com.komozan.codingchallenge35
+package com.komozan.navigationlibdemo
 
 import org.junit.Test
 
