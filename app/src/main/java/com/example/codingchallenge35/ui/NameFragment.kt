@@ -29,6 +29,7 @@ class NameFragment : Fragment() {
             it.findNavController().navigate(R.id.action_nameFragment_to_emailFragment)
         }
         model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
+        binding.viewModel = model
         binding.lifecycleOwner = requireActivity()
         return binding.root
     }
