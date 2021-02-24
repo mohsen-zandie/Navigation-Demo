@@ -7,7 +7,7 @@
         android:id="@+id/fragmentWelcomeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".WelcomeFragment">
+        tools:context=".ui.WelcomeFragment">
 
         <TextView
             android:id="@+id/textView2"

@@ -1,4 +1,4 @@
-package com.example.codingchallenge35
+package com.example.codingchallenge35.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,11 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.codingchallenge35.databinding.FragmentWelcomeBinding
+import com.example.codingchallenge35.R
+import com.example.codingchallenge35.databinding.FragmentNameBinding
 
-class WelcomeFragment : Fragment() {
-    private lateinit var binding: FragmentWelcomeBinding
+class NameFragment : Fragment() {
+    private lateinit var binding: FragmentNameBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -19,10 +20,11 @@ class WelcomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_welcome, container, false)
-        binding.viewTerms.setOnClickListener {
-            it.findNavController().navigate(R.id.action_welcomeFragment_to_termsFragment)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_name, container, false)
+        binding.next.setOnClickListener {
+            it.findNavController().navigate(R.id.action_nameFragment_to_emailFragment)
         }
         return binding.root
     }
+
 }

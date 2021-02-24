@@ -1,8 +1,9 @@
-package com.example.codingchallenge35
+package com.example.codingchallenge35.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.example.codingchallenge35.R
 import com.example.codingchallenge35.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

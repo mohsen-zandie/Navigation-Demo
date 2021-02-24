@@ -7,7 +7,7 @@
         android:id="@+id/homeFragmentLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".HomeFragment">
+        tools:context=".ui.HomeFragment">
 
         <Button
             android:id="@+id/signUp"

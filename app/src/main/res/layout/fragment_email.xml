@@ -7,7 +7,7 @@
         android:id="@+id/fragmentEmailLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".EmailFragment">
+        tools:context=".ui.EmailFragment">
 
         <TextView
             android:id="@+id/textView"

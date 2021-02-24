@@ -7,7 +7,7 @@
         android:id="@+id/fragmentNameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".NameFragment">
+        tools:context=".ui.NameFragment">
 
         <TextView
             android:id="@+id/textView"
