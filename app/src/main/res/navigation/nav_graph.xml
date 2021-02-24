@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.codingchallenge35.ui.HomeFragment"
+        android:name="com.komozan.codingchallenge35.ui.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/emailFragment"
-        android:name="com.example.codingchallenge35.ui.EmailFragment"
+        android:name="com.komozan.codingchallenge35.ui.EmailFragment"
         android:label="fragment_email"
         tools:layout="@layout/fragment_email" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/nameFragment"
-        android:name="com.example.codingchallenge35.ui.NameFragment"
+        android:name="com.komozan.codingchallenge35.ui.NameFragment"
         android:label="fragment_name"
         tools:layout="@layout/fragment_name" >
         <action
@@ -37,12 +37,12 @@
     </fragment>
     <fragment
         android:id="@+id/termsFragment"
-        android:name="com.example.codingchallenge35.ui.TermsFragment"
+        android:name="com.komozan.codingchallenge35.ui.TermsFragment"
         android:label="fragment_terms"
         tools:layout="@layout/fragment_terms" />
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.example.codingchallenge35.ui.WelcomeFragment"
+        android:name="com.komozan.codingchallenge35.ui.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action

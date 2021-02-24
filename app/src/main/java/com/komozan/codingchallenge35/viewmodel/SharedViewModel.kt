@@ -1,4 +1,4 @@
-package com.example.codingchallenge35.viewmodel
+package com.komozan.codingchallenge35.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

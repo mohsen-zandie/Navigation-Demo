@@ -1,4 +1,4 @@
-package com.example.codingchallenge35.ui
+package com.komozan.codingchallenge35.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,14 +8,14 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
-import com.example.codingchallenge35.R
-import com.example.codingchallenge35.databinding.FragmentEmailBinding
-import com.example.codingchallenge35.viewmodel.SharedViewModel
+import com.komozan.codingchallenge35.R
+import com.komozan.codingchallenge35.databinding.FragmentEmailBinding
+import com.komozan.codingchallenge35.viewmodel.SharedViewModel
 
 
 class EmailFragment : Fragment() {
     private lateinit var binding: FragmentEmailBinding
-    private lateinit var model : SharedViewModel
+    private lateinit var model: SharedViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }

@@ -1,4 +1,4 @@
-package com.example.codingchallenge35.ui
+package com.komozan.codingchallenge35.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.codingchallenge35.R
-import com.example.codingchallenge35.databinding.FragmentHomeBinding
+import com.komozan.codingchallenge35.R
+import com.komozan.codingchallenge35.databinding.FragmentHomeBinding
 
 
 class HomeFragment : Fragment() {

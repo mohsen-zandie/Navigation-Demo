@@ -1,4 +1,4 @@
-package com.example.codingchallenge35
+package com.komozan.codingchallenge35
 
 import org.junit.Test
 
